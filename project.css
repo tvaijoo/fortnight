@@ -1,0 +1,53 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 500%;
+margin-top: 15%;
+margin-left: 3%;
+    font-weight: bolder;
+    font-style: italic;
+    color: wheat;
+    margin-bottom: 50%;
+
+}
+*{
+    background-image: url(sakura.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+a{
+    color: wheat;
+    text-decoration: none;
+
+}
+a:hover{
+    color: burlywood;
+    text-decoration: wavy;
+}
+.nav2{ 
+    text-decoration:solid;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 90px;
+    display: flex;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+     position: sticky;
+ 
+   
+}
+.nav{
+    display: flex;
+    justify-content: left;
+    
+    color: wheat;
+}
+
+
+/*li{
+    border: 2px solid black;
+    padding: 13px;
+}*/

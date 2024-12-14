@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(252, 218, 95);
+}
+.biocontainer{
+    width: 80%;
+    margin:20px auto;
+    padding: 20px;
+    background-color: #8080e7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, o, 0, 0.1 );
+
+}
+.bio-btn{
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 95%;
+    text-align: center;
+    display: block;
+    text-decoration-color: black;
+}
+.bio-content{
+    display: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:wheat;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+  
+}
+.bio-content.show{
+    display: block;
+    max-height: 500px;
+}
+.bio-btn:hover{
+    color: wheat;
+    background-color: black;
+}
+.bio-toggle:checked+.bio-btn+.bio-content{
+    display: block;
+}
+/* .piano{
+    font-size: larger;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+   
+} */
+.tabby{
+    border: 1px solid;
+    border-color: black;
+    width: 50%;
+    margin:10px auto;
+    border-collapse: collapse;
+    padding: 10px;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
