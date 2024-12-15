@@ -6,49 +6,63 @@
     <title>Contact Page</title>
     <style>
       body {
-        font-size: larger;
+        font-size: x-large;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         font-stretch: expanded;
+        font-style: oblique;
+        color: rgb(5, 165, 5);
+        
       }
-      .table {
-        position: absolute;
-        background-color: rgb(140, 245, 245);
-        background-blend-mode: color;
-        border-color: rgb(140, 10, 140);
-        border-radius: 2%;
-        border-width: 10px;
-        margin-left: 5%;
-        margin-right: 30%;
-        margin-top: 0%;
-        margin-bottom: 30%;
-      }
+    
       * {
         background-color: rgb(172, 249, 249);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
       h1 {
-        margin-left: 5%;
+        margin-left: 40%;
         margin-top: 5%;
         color: rgb(5, 165, 5);
+        font-style: italic;
+      }
+      .info{
+       margin-top: 10%;
+       margin-left: 10%;
+      }
+      .mail{
+  
+        position: relative;
+       
+      }
+      /* .phone{
+        
+        position: absolute;
+        float: inline-end;
+      }*/
+      .ig a{
+     
+        color: rgb(11, 44, 11);
+        
       }
     </style>
   </head>
   <body>
     <h1>Contact Info</h1>
-    <table border="table" class="table">
-      <tr>
-        <td>Mail</td>
-        <td>tejaswi.vaijoo@deerwalk.edu.np</td>
-      </tr>
-      <tr>
-        <td>Phone</td>
-        <td>9818800644</td>
-      </tr>
-      <tr>
-        <td>Instagram</td>
-        <td><a href="https://www.instagram.com/tvaijoo/">tvaijoo</a></td>
-      </tr>
-    </table>
+    <div class="info">
+    <div class="mail">
+      <p>Mail ------------- tejaswi.vaijoo@deerwalk.edu.np</p>
+    
+    </div>
+
+    <div class="phone">
+      <p>Phone ---------- 9818800644</p>
+     
+    </div>
+
+    <div class="ig">
+      <p>Instagram ----- <a href="https://www.instagram.com/tvaijoo/">tvaijoo</a></p>
+     
+    </div>
+  </div>
   </body>
 </html>

@@ -2,13 +2,13 @@ body{
     margin: 0;
     padding:0;
     box-sizing: border-box;
-    background-color: rgb(252, 218, 95);
+    background-color:blanchedalmond;
 }
 .biocontainer{
     width: 80%;
     margin:20px auto;
     padding: 20px;
-    background-color: #8080e7;
+    background-color:rgb(226, 182, 182);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, o, 0, 0.1 );
 
@@ -26,6 +26,7 @@ body{
     text-decoration-color: black;
 }
 .bio-content{
+    font-weight: bolder;
     display: none;
     padding: 10px;
     margin-top: 10px;
@@ -54,12 +55,13 @@ body{
    
 } */
 .tabby{
-    border: 1px solid;
+    border: 5px solid;
     border-color: black;
     width: 50%;
     margin:10px auto;
     border-collapse: collapse;
     padding: 10px;
+    margin-top: 5%;
 }
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
